@@ -57,12 +57,6 @@ const Shop = () => {
     deleteShoppingCart();
   };
 
-  // const handleAddToCart = (product)=>{
-  //     const newCart = [...cart,product];
-  //     setCart(newCart)
-  //     addToDb(product.id)
-  //   }
-
   return (
     <div className="shop-container">
       <div className="products-container">
