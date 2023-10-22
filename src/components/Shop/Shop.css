@@ -1,0 +1,29 @@
+.shop-container{
+ 
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+}
+.products-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 40px;
+    margin: 50px;
+
+}
+.btn-proceed-review{
+        display: flex;
+        justify-content: space-between;
+        margin: 10px auto;
+        width:90% ;
+        height: 30px;
+        font-size: 210x;
+        background-color: #186F65;
+        color: white;
+        border-radius: 4px;
+        align-items: center;
+    }
+
+.btn-text{
+        text-decoration: none;
+    }
+
