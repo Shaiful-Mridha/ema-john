@@ -11,28 +11,28 @@ import Checkout from "./components/Checkout/Checkout.jsx";
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/ema-john/",
     element: <Home></Home>,
     children: [
       {
-        path: "/",
+        path: "/ema-john/",
         element: <Shop></Shop>,
       },
       {
-        path: "/orders",
+        path: "/ema-john/orders",
         element: <Orders></Orders>,
         loader: productsLoad,
       },
       {
-        path: "/inventory",
+        path: "/ema-john/inventory",
         element: <Inventory></Inventory>,
       },
       {
-        path: "/Login",
+        path: "/ema-john/Login",
         element: <Login></Login>,
       },
       {
-        path: "/checkout",
+        path: "/ema-john/checkout",
         element: <Checkout></Checkout>,
       },
     ],
